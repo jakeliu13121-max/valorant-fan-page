@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant Fan Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Valorant</h1>
+    <p>A tactical shooter by Riot Games — my favorite game to play.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#agents">Agents</a>
+    <a href="#maps">Maps</a>
+    <a href="#tips">Tips</a>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2>About the Game</h2>
+      <p>
+        Valorant is a 5v5 character-based tactical shooter. Each round,
+        one team attacks and tries to plant a bomb (the "Spike") while
+        the other team defends. Every character (Agent) has unique
+        abilities on top of gunplay, so strategy matters as much as aim.
+      </p>
+    </section>
+
+    <section id="agents">
+      <h2>Agents</h2>
+
+      <section id="favorite-agents">
+        <h3>Favorite Agents</h3>
+        <div class="card-grid">
+          <article class="card">
+            <h4>Jett</h4>
+            <p>Fast duelist who can dash and dodge — great for aggressive plays.</p>
+          </article>
+          <article class="card">
+            <h4>Sova</h4>
+            <p>Recon initiator who scouts enemies with his bow and drone.</p>
+          </article>
+          <article class="card">
+            <h4>Killjoy</h4>
+            <p>Sentinel who locks down sites with turrets and alarm bots.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="all-agents">
+        <h3>All Agents</h3>
+        <div class="agent-grid">
+
+          <article class="agent-card">
+            <h4>Astra</h4>
+            <p class="role">Controller</p>
+            <p class="bio">A Ghanaian guardian who protects the world from a pocket astral dimension, watching over the battlefield and bending cosmic energy to her will.</p>
+            <ul class="abilities">
+              <li><strong>Gravity Well</strong> (Basic) — places a star that pulls in and eventually stuns nearby enemies.</li>
+              <li><strong>Nova Pulse</strong> (Basic) — places a star that detonates into a concussive blast.</li>
+              <li><strong>Astral Form / Nebula</strong> (Signature) — enters a spectral state to place stars anywhere on the map, which convert into Gravity Well, Nova Pulse, or a smoke.</li>
+              <li><strong>Cosmic Divide</strong> (Ultimate) — creates a giant wall between two points that blocks bullets and heavily muffles sound.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Breach</h4>
+            <p class="role">Initiator</p>
+            <p class="bio">A blind, bionic Swedish soldier who fires kinetic and seismic charges through walls to clear a path for his team.</p>
+            <ul class="abilities">
+              <li><strong>Aftershock</strong> (Basic) — fires a bolt through a wall that erupts into a damaging fireball on the other side.</li>
+              <li><strong>Fault Line</strong> (Basic) — sends a linear seismic quake that dazes everyone it passes through.</li>
+              <li><strong>Flashpoint</strong> (Signature) — detonates a blinding charge through a wall.</li>
+              <li><strong>Rolling Thunder</strong> (Ultimate) — unleashes a line of rolling quakes that knock up and daze enemies caught in it.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Brimstone</h4>
+            <p class="role">Controller</p>
+            <p class="bio">A steady American commander who calls in orbital strikes and smoke cover to keep his squad in control.</p>
+            <ul class="abilities">
+              <li><strong>Incendiary</strong> (Basic) — launches a grenade that creates a lingering damaging fire zone.</li>
+              <li><strong>Stim Beacon</strong> (Basic) — deploys a beacon giving nearby teammates a fire-rate/reload boost.</li>
+              <li><strong>Sky Smoke</strong> (Signature) — calls in up to three smoke clouds anywhere on the map from a tactical overview.</li>
+              <li><strong>Orbital Strike</strong> (Ultimate) — calls down a devastating laser strike on a marked area.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Chamber</h4>
+            <p class="role">Sentinel</p>
+            <p class="bio">A stylish French weapons designer who builds his own custom arsenal to hold down key positions with precision.</p>
+            <ul class="abilities">
+              <li><strong>Trademark</strong> (Basic) — places a hidden trap that slows and reveals enemies who trigger it.</li>
+              <li><strong>Rendezvous</strong> (Basic) — places two teleport anchors to instantly reposition between them.</li>
+              <li><strong>Headhunter</strong> (Signature) — equips a powerful custom heavy pistol for precise picks.</li>
+              <li><strong>Tour De Force</strong> (Ultimate) — equips a sniper rifle that one-shots on any hit and slows enemies it damages.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Clove</h4>
+            <p class="role">Controller</p>
+            <p class="bio">An immortal, mischievous Scottish troublemaker who torments enemies in combat and refuses to stay down even in death.</p>
+            <ul class="abilities">
+              <li><strong>Pick-Me-Up</strong> (Basic) — after a kill/assist, gain movement speed and temporary overhealing.</li>
+              <li><strong>Meddle</strong> (Basic) — throws an orb of essence that decays the health of anyone it hits.</li>
+              <li><strong>Ruse</strong> (Signature) — drops one or two smokes, usable even after Clove has died that round.</li>
+              <li><strong>Not Dead Yet</strong> (Ultimate) — survives lethal damage for a short time, fully reviving if a kill/assist is earned.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Cypher</h4>
+            <p class="role">Sentinel</p>
+            <p class="bio">A secretive Moroccan information broker who turns the map into his own surveillance network.</p>
+            <ul class="abilities">
+              <li><strong>Trapwire</strong> (Basic) — sets an invisible tripwire that reveals and restrains enemies who cross it.</li>
+              <li><strong>Cyber Cage</strong> (Basic) — tosses a cage that triggers into a vision-blocking, slowing zone.</li>
+              <li><strong>Spycam</strong> (Signature) — places a remote camera to scout enemies and tag them with a dart.</li>
+              <li><strong>Neural Theft</strong> (Ultimate) — extracts intel from an eliminated enemy's body to reveal their whole team's location.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Deadlock</h4>
+            <p class="role">Sentinel</p>
+            <p class="bio">A Norwegian operative with experimental nanowire tech who restrains and outlasts enemies rather than out-gunning them.</p>
+            <ul class="abilities">
+              <li><strong>GravNet</strong> (Basic) — throws a grenade that forces caught enemies to crouch-walk slowly.</li>
+              <li><strong>Barrier Mesh</strong> (Basic) — deploys a disc that grows into a wall of blocking barriers.</li>
+              <li><strong>Sonic Sensor</strong> (Signature) — places a sensor that detects noise and concusses enemies nearby.</li>
+              <li><strong>Annihilation</strong> (Ultimate) — fires a nanowire that cocoons and drags the first enemy hit unless freed by teammates.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Fade</h4>
+            <p class="role">Initiator</p>
+            <p class="bio">A Turkish nightmare hunter who channels her own fears into monstrous creatures that hunt down and expose enemies.</p>
+            <ul class="abilities">
+              <li><strong>Prowler</strong> (Basic) — releases creatures that track toward an enemy's last known position and blind them.</li>
+              <li><strong>Seize</strong> (Basic) — throws an orb that anchors down and hinders/suppresses everyone in its area.</li>
+              <li><strong>Haunt</strong> (Signature) — launches an eye that reveals enemies in its area to Fade's team.</li>
+              <li><strong>Nightfall</strong> (Ultimate) — sends a wave of dark energy that deafens, decays, and reveals enemies it passes.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Gekko</h4>
+            <p class="role">Initiator</p>
+            <p class="bio">A laid-back agent from LA who sends his crew of scrappy creatures ahead to scout, blind, and detain enemies before regrouping to reuse them.</p>
+            <ul class="abilities">
+              <li><strong>Mosh Pit</strong> (Basic) — throws a creature that lands then explodes with damage.</li>
+              <li><strong>Wingman</strong> (Basic) — sends a creature forward to concuss enemies or plant/defuse the spike.</li>
+              <li><strong>Dizzy</strong> (Signature) — sends a floating creature ahead that blinds enemies it gets a clear look at.</li>
+              <li><strong>Thrash</strong> (Ultimate) — sends a creature to pounce on and detain an enemy, disabling their weapon and abilities.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Harbor</h4>
+            <p class="role">Controller</p>
+            <p class="bio">An Indian scientist who has mastered ancient elemental water technology, shielding his team behind walls of water.</p>
+            <ul class="abilities">
+              <li><strong>Cove</strong> (Basic) — creates a bubble of water that blocks incoming bullets.</li>
+              <li><strong>Cascade</strong> (Basic) — sends a wave of water forward that blinds and slows enemies it hits.</li>
+              <li><strong>High Tide</strong> (Signature) — raises a wall of water in a shape you draw, blocking vision and briefly slowing/blinding those who pass through.</li>
+              <li><strong>Reckoning</strong> (Ultimate) — slams the ground to create repeated quakes that knock up, daze, and reveal nearby enemies.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Iso</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">A calm, composed Chinese "fixer" who bends probability itself to shield and duel down enemies one by one.</p>
+            <ul class="abilities">
+              <li><strong>Contingency</strong> (Basic) — fires an indestructible wall of energy that blocks bullets and vision.</li>
+              <li><strong>Undercut</strong> (Basic) — throws a bolt that passes through walls and briefly weakens anyone it hits.</li>
+              <li><strong>Double Tap</strong> (Signature) — channels to gain a damage-absorbing shield and enters a flow state where kills refresh it.</li>
+              <li><strong>Kill Contract</strong> (Ultimate) — pulls Iso and the first enemy hit into an isolated arena for a duel to the death.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Jett</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">A quick, confident South Korean daredevil who rides the wind to dash and dive headfirst into fights.</p>
+            <ul class="abilities">
+              <li><strong>Cloudburst</strong> (Basic) — throws a cloud that briefly blocks vision where it lands.</li>
+              <li><strong>Updraft</strong> (Basic) — propels Jett high into the air.</li>
+              <li><strong>Tailwind</strong> (Signature) — dashes quickly in the direction Jett is moving.</li>
+              <li><strong>Blade Storm</strong> (Ultimate) — equips throwing knives that one-shot on a body hit and refresh on kills.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>KAY/O</h4>
+            <p class="role">Initiator</p>
+            <p class="bio">A synthetic soldier built as a weapon against Radiant powers, sent to suppress and destroy enemy agents' abilities.</p>
+            <ul class="abilities">
+              <li><strong>FRAG/ment</strong> (Basic) — throws an explosive that pulses damage across several bursts.</li>
+              <li><strong>FLASH/drive</strong> (Basic) — throws a grenade that emits a delayed flash blinding nearby enemies.</li>
+              <li><strong>ZERO/point</strong> (Signature) — throws a blade that suppresses (disables) the abilities of enemies it hits.</li>
+              <li><strong>NULL/cmd</strong> (Ultimate) — overloads with energy, suppressing nearby enemies' abilities and reviving KAY/O with partial health if downed while active.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Killjoy</h4>
+            <p class="role">Sentinel</p>
+            <p class="bio">A brilliant young German inventor who fortifies her territory with a lineup of gadgets that zap, slow, and detain intruders.</p>
+            <ul class="abilities">
+              <li><strong>Nanoswarm</strong> (Basic) — throws a hidden device that can later be triggered into a damaging nanobot swarm.</li>
+              <li><strong>Alarmbot</strong> (Basic) — deploys a robot that hunts nearby enemies and marks them Vulnerable.</li>
+              <li><strong>Turret</strong> (Signature) — deploys a turret that auto-fires on and reveals enemies in its line of sight.</li>
+              <li><strong>Lockdown</strong> (Ultimate) — deploys a device that, after arming, detains all enemies caught in its radius.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Miks</h4>
+            <p class="role">Controller</p>
+            <p class="bio">A Croatian sound artist whose sonic technology heals and empowers his allies while disrupting enemies with waves of sound. The newest agent, released March 2026.</p>
+            <ul class="abilities">
+              <li><strong>Harmonize</strong> (Basic) — grants a Combat Stim to Miks and a targeted ally that refreshes on kills.</li>
+              <li><strong>M-Pulse</strong> (Basic) — sends out sound waves on landing that either concuss or heal players caught in them.</li>
+              <li><strong>Waveform</strong> (Signature) — fires smoke charges to selected locations, creating vision-blocking clouds.</li>
+              <li><strong>Bassquake</strong> (Ultimate) — builds up and releases a sonic wave forward that knocks back, deafens, and slows enemies.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Neon</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">A Filipino agent with bio-electric powers who sprints across the map at incredible speed and blasts enemies with raw energy.</p>
+            <ul class="abilities">
+              <li><strong>Fast Lane</strong> (Basic) — creates two parallel walls of light on the ground that block vision and movement.</li>
+              <li><strong>Relay Bolt</strong> (Basic) — throws a bolt of energy that bounces once and creates concussive blasts.</li>
+              <li><strong>High Gear</strong> (Signature) — charges up to sprint at high speed and slide.</li>
+              <li><strong>Overdrive</strong> (Ultimate) — fires a continuous stream of electric energy that damages and eventually kills enemies in the beam.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Omen</h4>
+            <p class="role">Controller</p>
+            <p class="bio">A shadowy figure with no memory of his past, haunting the map by teleporting through darkness and blinding foes.</p>
+            <ul class="abilities">
+              <li><strong>Shrouded Step</strong> (Basic) — teleports a short distance to a marked location.</li>
+              <li><strong>Paranoia</strong> (Basic) — sends a shadow projectile forward that blinds all enemies it passes through.</li>
+              <li><strong>Dark Cover</strong> (Signature) — launches a smoke ball to a chosen location, blocking vision.</li>
+              <li><strong>From the Shadows</strong> (Ultimate) — teleports to anywhere on the map as a shadow form that can be shot down before arriving.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Phoenix</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">A charismatic English duelist who wields fire as a weapon and a lifeline, healing himself while burning enemies.</p>
+            <ul class="abilities">
+              <li><strong>Blaze</strong> (Basic) — creates a wall of fire that blocks vision and heals/damages Phoenix as he stands in it.</li>
+              <li><strong>Curveball</strong> (Basic) — throws a curving flare that blinds enemies looking at it.</li>
+              <li><strong>Hot Hands</strong> (Signature) — throws a fireball creating a lingering fire zone that also heals Phoenix.</li>
+              <li><strong>Run It Back</strong> (Ultimate) — marks his current spot and, if killed (or after a duration), returns there with full health and ammo.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Raze</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">An explosive, high-energy Brazilian agent who uses homemade gadgets and weapons to blast enemies out of hiding.</p>
+            <ul class="abilities">
+              <li><strong>Boom Bot</strong> (Basic) — sends a rolling robot that hunts down and detonates on the nearest enemy.</li>
+              <li><strong>Blast Pack</strong> (Basic) — throws an explosive that can damage enemies or launch Raze into the air.</li>
+              <li><strong>Paint Shells</strong> (Signature) — throws a grenade that bursts into a cluster of smaller explosions.</li>
+              <li><strong>Showstopper</strong> (Ultimate) — fires a rocket launcher dealing heavy damage in a large blast radius.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Reyna</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">A fierce Mexican agent who feeds off the souls of fallen enemies to heal and empower herself.</p>
+            <ul class="abilities">
+              <li><strong>Devour</strong> (Basic) — consumes a soul orb left by a kill to heal.</li>
+              <li><strong>Dismiss</strong> (Basic) — consumes a soul orb to become briefly intangible and invisible.</li>
+              <li><strong>Leer</strong> (Signature) — throws an ethereal eye that nearsights (blinds) any enemy who looks at it.</li>
+              <li><strong>Empress</strong> (Ultimate) — enters a rage state with boosted fire rate and reload speed that refreshes on kills.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Sage</h4>
+            <p class="role">Sentinel</p>
+            <p class="bio">A calm, caring Chinese agent who bends the battlefield with barriers and technology that restores life.</p>
+            <ul class="abilities">
+              <li><strong>Slow Orb</strong> (Basic) — throws an orb that shatters into a slowing field.</li>
+              <li><strong>Barrier Orb</strong> (Basic) — creates a large solid wall blocking movement and sightlines.</li>
+              <li><strong>Healing Orb</strong> (Signature) — heals herself or an ally over time.</li>
+              <li><strong>Resurrection</strong> (Ultimate) — revives a fallen teammate to full health.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Skye</h4>
+            <p class="role">Initiator</p>
+            <p class="bio">An Australian agent attuned to nature who calls on animal spirits to heal allies and scout enemies.</p>
+            <ul class="abilities">
+              <li><strong>Regrowth</strong> (Basic) — channels a healing beam that heals allies caught in it over time.</li>
+              <li><strong>Trailblazer</strong> (Basic) — sends a tiger spirit bounding forward that can be detonated to concuss enemies.</li>
+              <li><strong>Guiding Light</strong> (Signature) — sends a hawk spirit that can be detonated to flash enemies in its path.</li>
+              <li><strong>Seekers</strong> (Ultimate) — releases three orbs that track down nearby enemies and briefly nearsight them.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Sova</h4>
+            <p class="role">Initiator</p>
+            <p class="bio">A resourceful Russian hunter who tracks enemies with a bow of Radiant energy and reconnaissance drones.</p>
+            <ul class="abilities">
+              <li><strong>Owl Drone</strong> (Basic) — flies a drone that tags enemies it spots.</li>
+              <li><strong>Shock Bolt</strong> (Basic) — fires an explosive bolt from his bow that damages enemies in the blast.</li>
+              <li><strong>Recon Bolt</strong> (Signature) — fires a bolt that reveals nearby enemies' locations for a duration.</li>
+              <li><strong>Hunter's Fury</strong> (Ultimate) — fires energy blasts that pierce walls across the whole map, damaging and revealing enemies hit.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Tejo</h4>
+            <p class="role">Initiator</p>
+            <p class="bio">A Colombian intelligence consultant whose ballistic guidance systems rain down explosives to pressure enemies out of hiding.</p>
+            <ul class="abilities">
+              <li><strong>Special Delivery</strong> (Basic) — throws a sticky or bouncing grenade that concusses enemies in its blast.</li>
+              <li><strong>Stealth Drone</strong> (Basic) — pilots a drone forward and triggers it to suppress and reveal enemies detected.</li>
+              <li><strong>Guided Salvo</strong> (Signature) — marks up to two locations and launches homing missiles that strike them repeatedly.</li>
+              <li><strong>Armageddon</strong> (Ultimate) — sets a start and end point for a strike that unleashes explosions along the path.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Veto</h4>
+            <p class="role">Sentinel</p>
+            <p class="bio">A Senegalese enforcer transformed by an unstoppable DNA mutation, using his altered body to shrug off attacks and nullify enemy tech.</p>
+            <ul class="abilities">
+              <li><strong>Crosscut</strong> (Basic) — places a vortex energy ball; while in range, Veto can teleport to it.</li>
+              <li><strong>Chokehold</strong> (Basic) — throws a fragment that deploys into a trap holding enemies in place while deafening and decaying them.</li>
+              <li><strong>Interceptor</strong> (Signature, free) — places a device that destroys incoming enemy utility.</li>
+              <li><strong>Evolution</strong> (Ultimate) — mutates to gain a combat stim, health regeneration, and immunity to slows/stuns/concussions.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Viper</h4>
+            <p class="role">Controller</p>
+            <p class="bio">An American chemist who weaponizes toxic gas, using her own tech to poison and choke off the battlefield.</p>
+            <ul class="abilities">
+              <li><strong>Poison Cloud</strong> (Basic) — deploys a gas emitter that can be reactivated to create a damaging toxic cloud.</li>
+              <li><strong>Snake Bite</strong> (Basic) — throws a chemical launcher that creates a lingering damage zone on the ground.</li>
+              <li><strong>Toxic Screen</strong> (Signature) — deploys a long line of gas emitters forming a wall that can be toggled into a vision-blocking cloud.</li>
+              <li><strong>Viper's Pit</strong> (Ultimate) — creates a massive toxic cloud that decays the health/vision of enemies inside while empowering Viper.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Vyse</h4>
+            <p class="role">Sentinel</p>
+            <p class="bio">A metallic mastermind who unleashes liquid metal to isolate, trap, and disarm her enemies.</p>
+            <ul class="abilities">
+              <li><strong>Shear</strong> (Basic) — places a hidden wall trap that bursts into an indestructible wall when an enemy crosses it.</li>
+              <li><strong>Razorvine</strong> (Basic) — launches a nest that unfurls into a large vine patch, slowing and damaging anyone who moves through it.</li>
+              <li><strong>Arc Rose</strong> (Signature) — places a hidden, retrievable trap that blinds enemies looking at it when triggered.</li>
+              <li><strong>Steel Garden</strong> (Ultimate) — sends out thorns in a wide area that jam and disable enemies' weapons.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Waylay</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">A fast, elusive agent built around pure speed, able to outrun and out-dash even Jett to reach sites first.</p>
+            <ul class="abilities">
+              <li><strong>Saturate</strong> (Basic) — throws a cluster of light that explodes on impact, slowing nearby enemies' movement and weapon fire.</li>
+              <li><strong>Refract</strong> (Basic) — creates a beacon of light on the ground, then teleports back to it, invulnerable while traveling.</li>
+              <li><strong>Light Speed</strong> (Signature) — dashes forward, with the first dash able to send her upward.</li>
+              <li><strong>Convergent Paths</strong> (Ultimate) — projects an afterimage that fires a beam, then surges forward at speed, hindering enemies the beam hits.</li>
+            </ul>
+          </article>
+
+          <article class="agent-card">
+            <h4>Yoru</h4>
+            <p class="role">Duelist</p>
+            <p class="bio">A rebellious Japanese agent who bends dimensions to fool and infiltrate his enemies, striking when they least expect it.</p>
+            <ul class="abilities">
+              <li><strong>Blindside</strong> (Basic) — throws a flash that ricochets off a surface before detonating.</li>
+              <li><strong>Gatecrash</strong> (Basic) — creates a rift he can teleport to a short time later.</li>
+              <li><strong>Fakeout</strong> (Signature) — sends out a decoy clone that mimics footsteps to distract enemies.</li>
+              <li><strong>Dimensional Drift</strong> (Ultimate) — enters an invulnerable rift form to scout freely, able to finish with a Gatecrash for a surprise entry.</li>
+            </ul>
+          </article>
+
+        </div>
+      </section>
+    </section>
+
+    <section id="maps">
+      <h2>Maps</h2>
+
+      <section id="favorite-maps">
+        <h3>Favorite Maps</h3>
+        <div class="card-grid">
+          <article class="card">
+            <h4>Ascent</h4>
+            <p>Open mid-control map with a classic 2-site layout.</p>
+          </article>
+          <article class="card">
+            <h4>Bind</h4>
+            <p>No mid, but teleporters make rotations fast and tricky.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="all-maps">
+        <h3>All Maps</h3>
+        <div class="map-grid">
+
+          <article class="map-card">
+            <h4>Ascent</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMriVdcpFJOZw92OHRwmKWNMX3yKu8Zc1zXfBvFvjfkw&s=10" alt="Ascent map">
+            <p>An Italian piazza and vineyard town with a fountain-lined plaza at mid; two sites, with remotely closable doors that can briefly seal off key chokepoints.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Split</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL9MRyB9bdP4iovh_EP0eTA8PSk6jDl8vNGGgV4nyIwQ&s=10" alt="Split map" data-map="split">
+            <p>A vertical, neon-lit Tokyo setting with tight corridors; two sites connected by ziplines and ropes running through a narrow mid, rewarding strong verticality plays.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Fracture</h4>
+            <img class="map-image" src="https://imgsvc.trackercdn.com/url/max-width(1656),quality(70)/https%3A%2F%2Ftrackercdn.com%2Fcdn%2Ftracker.gg%2Fvalorant%2Fdb%2Fmaps%2F9.08%2Ffracture.png/image.png" alt="Fracture map" data-map="fracture">
+            <p>A shattered Radianite research site in Colorado, USA, laid out in an H-shape where attackers can spawn from both ends, surrounding the defenders in the middle.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Bind</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSOHUMwJ70ihV76t3iZ9xX4EuHW4DUec7SrhbCIshiA&s=10" alt="Bind map" data-map="bind">
+            <p>A Moroccan desert marketplace with two sites and no direct mid; instead, two one-way teleporters let players cross the map quickly.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Breeze</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OpyqPCeAUBxmH6UBJzPhKX8oqZyPAxDlqEcxcS9LcA&s=10" alt="Breeze map" data-map="breeze">
+            <p>A sunny Caribbean island map with wide open areas and long sightlines across two sites, favoring long-range duels and wide-swinging duelists.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Abyss</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQde-zB8Qh65A7ej57pvqcIgRd8rLlkFGki0qongw3c6w&s=10" alt="Abyss map" data-map="abyss">
+            <p>A hidden Arctic fortress atop Jan Mayen island with two sites split by a huge open mid; unique for having no outer boundary, so players can fall to their death off the edges.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Lotus</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9oKdYjD59Sl_c0kokRw3nA5k4Yn_JKsalC6CsLfBZ9A&s=10" alt="Lotus map" data-map="lotus">
+            <p>An ancient underground temple in India with three sites, rotating spinning doors, and destructible walls that open new lines of attack.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Sunset</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJrkqKU6XicyNLtwV5uXJ2sjp3LRNBTtNZt40WkdP7nQ&s=10" alt="Sunset map" data-map="sunset">
+            <p>A compact, sun-baked Los Angeles neighborhood map with two sites close together and a central "Gallery" area, encouraging fast, aggressive rounds.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Pearl</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFX1ktlRcDWEIAPcwK3SxMJ3OETSAzJ3g9md2Bvrmzg&s=10" alt="Pearl map" data-map="pearl">
+            <p>A submerged, futuristic Portuguese city under the ocean (Omega Earth) with two sites connected by canals and mid pathways.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Icebox</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuGdODUZkaeRLRkQVI6-Ppy67BbCISJWoDxTLe8pC4w&s=10" alt="Icebox map" data-map="icebox">
+            <p>A Russian Arctic research site with two sites full of crates, ziplines, and vertical cover, making for chaotic close-quarters fights.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Corrode</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzinURUdc-qyfgTUliLNdnbOtWIg5yxEd7Fnt3wZfjrw&s=10" alt="Corrode map" data-map="corrode">
+            <p>A rusted French coastal town (Mont-Saint-Michel) turned Radianite salt-mining facility, blending castle ruins with industrial catwalks; two sites with flooded, noisy walkways in places.</p>
+          </article>
+
+          <article class="map-card">
+            <h4>Haven</h4>
+            <img class="map-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCFXmK8PoPgAbRMKHNBQdcxX7alLwIDHIdnFq7Jn1IcQ&s=10" alt="Haven map" data-map="haven">
+            <p>A hidden Bhutanese monastery map unique for having three bomb sites (A, B, C) instead of the usual two, spreading defenders thin.</p>
+          </article>
+
+        </div>
+      </section>
+    </section>
+
+    <section id="tips">
+      <h2>Pro Tips (2026)</h2>
+      <ul>
+        <li>Use a small, static crosshair with no movement/firing error — the competitive standard for precision.</li>
+        <li>Pre-aim at head level where enemies are likely to peek — this habit separates ranks more than raw aim.</li>
+        <li>Keep sound effects volume up so footsteps and gunfire stay clearly audible.</li>
+        <li>Turn V-Sync off to avoid input lag; aim for 144Hz+ if your setup allows it.</li>
+        <li>Pick a sensitivity (eDPI) and stick with it for at least two weeks to build muscle memory.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made by Jake — Fan Page v1 project.</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox hidden">
+    <span id="lightbox-close" class="lightbox-close">&times;</span>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
