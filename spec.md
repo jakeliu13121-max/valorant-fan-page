@@ -30,4 +30,4 @@ Fan page topic: **Valorant**.
 - Map images: each map card has an `<img class="map-image">` pointing at a URL Jake supplied, marked with `data-map="<name>"`. Clicking any `.map-image` triggers `script.js`, which shows a full-screen `#lightbox` overlay (closes via the `×` button, clicking outside the image, or Escape).
 - Responsive: media queries collapse grids to fewer columns on smaller screens (2 columns under 900px, 1 column under 600px for the bigger grids; cards go straight to 1 column under 600px).
 - Files: `index.html`, `style.css`, and `script.js`, all living in `fan_page_v1/`.
-- Deployment: not done yet — last concept, tackled once the page is finished.
+- Deployment: pushed to a GitHub repo (`jakeliu13121-max/valorant-fan-page`) and served live via GitHub Pages at https://jakeliu13121-max.github.io/valorant-fan-page/.
